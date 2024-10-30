@@ -21,8 +21,6 @@ jobs:
       
       - name: add dependences
         run: npm shrinkwrap
-
-      - uses: actions/checkout@v4
       
       - uses: actions/setup-node@v3
         with:
