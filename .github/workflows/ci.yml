@@ -15,6 +15,10 @@ jobs:
       - name: Run Tests
         run: echo "Running tests..." 
 
+      - name: Install linting dependencies
+              run: |
+                npm install -g htmlhint stylelint eslint
+
       - uses: actions/checkout@v4
       
       - uses: actions/setup-node@v3
@@ -22,9 +26,7 @@ jobs:
           node-version: '20'
           cache: 'npm'
       
-      - name: Install linting dependencies
-        run: |
-          npm install -g htmlhint stylelint eslint
+      
 
       - name: Run HTML Validation
         run: htmlhint '**/*.html'
