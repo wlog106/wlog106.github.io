@@ -18,6 +18,9 @@ jobs:
       - name: Install linting dependencies
         run: |
             npm install -g htmlhint stylelint eslint
+      
+      - name: add dependences
+        run: npm shrinkwrap
 
       - uses: actions/checkout@v4
       
