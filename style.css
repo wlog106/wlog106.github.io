@@ -1,0 +1,36 @@
+/* Basic styling for the website */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+  
+header {
+    background-color: #4caf50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+section {
+    margin-bottom: 1.5rem;
+}
+
+h1,
+h2 {
+    color: #333;
+}
+
+/* You can add your own styles */
+#features {
+    background-color: #e0e0e0;
+    padding: 1rem;
+}
