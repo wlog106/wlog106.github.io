@@ -6,3 +6,12 @@ document.addEventListener("DOMContentLoaded", () => {
         alert("About section clicked!");
     });
 });
+
+// Basic interactivity for the site
+document.addEventListener("DOMContentLoaded", () => {    
+    // Participants can add interactive features here
+    // Example: alert when clicking a button
+    document.getElementById("about").addEventListener("click", () => {
+        alert("About section clicked!");
+    });
+});
